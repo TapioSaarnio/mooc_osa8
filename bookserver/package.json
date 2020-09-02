@@ -1,0 +1,21 @@
+{
+  "name": "bookserver",
+  "version": "1.0.0",
+  "description": "GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tapio Saarnio",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.16.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.27",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.2.0"
+  }
+}
